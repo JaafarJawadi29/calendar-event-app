@@ -326,32 +326,7 @@ export default function CreateTask({ navigation, route }) {
                 value={taskText}
                 placeholder="What do you need to do?"
               />
-              <Text
-                style={{
-                  fontSize: 14,
-                  color: '#BDC6D8',
-                  marginVertical: 10
-                }}
-              >
-                Suggestion
-              </Text>
-              <View style={{ flexDirection: 'row' }}>
-                <View style={styles.readBook}>
-                  <Text style={{ textAlign: 'center', fontSize: 14 }}>
-                    Read book
-                  </Text>
-                </View>
-                <View style={styles.design}>
-                  <Text style={{ textAlign: 'center', fontSize: 14 }}>
-                    Design
-                  </Text>
-                </View>
-                <View style={styles.learn}>
-                  <Text style={{ textAlign: 'center', fontSize: 14 }}>
-                    Learn
-                  </Text>
-                </View>
-              </View>
+              
               <View style={styles.notesContent} />
               <View>
                 <Text style={styles.notes}>Notes</Text>
